@@ -92,13 +92,12 @@ a {
   color: var(--primary-color);
   text-decoration: none;
   border-bottom: 3px solid transparent;
-  font-weight: bold;
+  /* font-weight: bold; */
 }
 
 a:hover,
 a:focus {
   color: var(--on-background);
-  border-bottom: 3px solid;
 }
 
 /* Home Section */
@@ -283,7 +282,7 @@ input:checked + .slider {
   border: 1px solid var(--secondary-color);
   border-radius: 10px;
   padding: 10px 20px;
-  width: 80%;
+  width: 60%;
   background: var(--background);
   box-shadow: var(--box-shadow);
 }
@@ -308,11 +307,31 @@ input:checked + .slider::before {
   cursor: pointer;
   color: var(--primary-color);
 }
+#cvFile {
+  font-size: 100px;
+  cursor: pointer;
+  color: var(--primary-color);
+}
+#cvFile:hover {
+  color: var(--on-background);
+}
 #about-title {
   text-align: center;
 }
 
+#titles {
+  text-align: justify;
+}
 @media screen and (max-width: 1000px) {
+  .image-container-skills {
+    text-align: center;
+    border: 1px solid var(--secondary-color);
+    border-radius: 10px;
+    padding: 10px 20px;
+    width: 80%;
+    background: var(--background);
+    box-shadow: var(--box-shadow);
+  }
   .container {
     width: 90%;
     margin-top: 80px;
