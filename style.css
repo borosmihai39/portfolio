@@ -137,7 +137,9 @@ img {
   margin-top: 15px;
   margin-bottom: 50px;
 }
-
+#technologies {
+  margin-top: 10%;
+}
 button {
   min-width: 100px;
   height: 40px;
@@ -212,6 +214,9 @@ p {
 }
 
 .fab:hover {
+  color: var(--on-background);
+}
+#fasIcon:hover {
   color: var(--on-background);
 }
 
@@ -298,7 +303,11 @@ input:checked + .slider::before {
   font-size: 30px;
   margin-right: 5px;
 }
-
+#fasIcon {
+  font-size: 100px;
+  cursor: pointer;
+  color: var(--primary-color);
+}
 #about-title {
   text-align: center;
 }
