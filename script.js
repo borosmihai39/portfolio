@@ -10,7 +10,7 @@ var textBox = document.getElementsByClassName('text-box');
 // Dark Mode Styles
 function darkMode(){
     
-    nav.style.backgroundColor = 'rgb(0 0 0 / 50%)'; 
+    nav.style.backgroundColor = 'rgb(159 159 159 / 100%)'; 
 for(var i = 0; i < textBox.length; i++) {
     textBox[i].style.backgroundColor = 'rgb(255 255 255 / 50%)';
 }
@@ -22,7 +22,7 @@ for(var i = 0; i < textBox.length; i++) {
 
 // Light Mode Styles
 function lightMode(){
-    nav.style.backgroundColor = 'rgb(255 255 255 / 50%)';
+    nav.style.backgroundColor = 'rgb(255 255 255 / 100%)';
     for(var i = 0; i < textBox.length; i++) {
         textBox[i].style.backgroundColor = 'rgb(0 0 0 / 50%)';
     }

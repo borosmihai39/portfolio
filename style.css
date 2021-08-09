@@ -84,7 +84,7 @@ nav {
   letter-spacing: 3px;
   padding: 25px;
   width: 100vw;
-  background: rgb(255 255 255 / 50%);
+  background: rgb(255 255 255 / 100%);
 }
 
 a {
@@ -226,7 +226,11 @@ p {
   z-index: 100;
   position: fixed;
   right: 25px;
-  top: 30px;
+  top: 12px;
+}
+.navbar {
+  z-index: 0;
+  background-color: rgb(255 255 255 / 100%);
 }
 
 .theme-switch-wrapper span {
@@ -311,6 +315,7 @@ input:checked + .slider::before {
   font-size: 100px;
   cursor: pointer;
   color: var(--primary-color);
+  margin-left: 8px;
 }
 #cvFile:hover {
   color: var(--on-background);
@@ -364,7 +369,7 @@ input:checked + .slider::before {
     visibility: hidden;
   }
   .theme-switch-wrapper {
-    top: 16px;
+    top: 12px;
     display: flex;
     margin: 0;
     font-size: 1px;
@@ -415,7 +420,7 @@ input:checked + .slider::before {
   }
   .social-icons {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
   }
   .fab {
     margin: 10px;

@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title class="title">Mihai Boros - Portfolio</title>
@@ -16,7 +17,6 @@
     
 </head>
 <body>
-    
     <!-- Dark Mode Switch -->
     <div class="theme-switch-wrapper" data-aos="fade-down"
     data-aos-easing="linear"
@@ -29,9 +29,25 @@
     
         </label>
     </div>
+    <nav id="nav" class="navbar fixed-top navbar-expand-lg navbar-light">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>   
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+          <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+            <li class="nav-item active">
+              <!-- <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a> -->
+              <a href="#home">HOME</a>
+        <a href="#about">SKILLS</a>
+        <a href="#technologies">TECHNOLOGIES</a>
+        <a href="#projects">PROJECTS</a>
+        <a href="#contact">CONTACT</a>
+            </li>
+        </div>
+      </nav>
     <!-- Home section -->
     <!-- Navigation -->
-    <nav id="nav" data-aos="fade-down"
+    <!-- <nav id="nav" data-aos="fade-down"
     data-aos-easing="linear"
     data-aos-duration="400">
         <a href="#home">HOME</a>
@@ -40,7 +56,7 @@
         <a href="#projects">PROJECTS</a>
         <a href="#contact">CONTACT</a>
         
-    </nav>
+    </nav> -->
     <section id="home">
         
         <div class="container">
@@ -149,15 +165,17 @@
     <!-- Contact Section -->
     <section id="contact">
         <div class="social-icons">
-            <p id="titles">Github &nbsp; LinkedIn Instagram &nbsp;&nbsp;CV</p>
+
             <span><a href="https://github.com/borosmihai39"><i class="fab fa-github-square"></i></a></span>
             <span><a href="https://www.linkedin.com/in/mihai-boros-260138183/"><i class="fab fa-linkedin"></i></a></span>
             <span><a href="https://www.instagram.com/borosmihai/?hl=en"><i class="fab fa-instagram"></i></a></span>
-            <span><a href="img/CV_MihaiBoros_Latex.pdf" download ><i class="fas fa-file-pdf" id="cvFile"></i></a></span>
+            <span id="cvFile"><a href="img/CV_MihaiBoros_Latex.pdf" download ><i class="fas fa-file-pdf" id="cvFile"></i></a></span>
         </div>
         
     </section>
     <!-- Script -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
     <script src="script.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
