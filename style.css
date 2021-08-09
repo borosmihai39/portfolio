@@ -44,11 +44,11 @@ body {
 .card-img-top {
   height: auto;
 }
-ul li {
+/* ul li {
   list-style: none;
   font-size: 25px;
   font-family: "Roboto", sans-serif;
-}
+} */
 section {
   min-height: 100vh;
   display: flex;
@@ -178,7 +178,7 @@ button:hover:not(.outline) {
 .text-box {
   display: flex;
   flex-direction: column;
-  text-align: justify;
+  /* text-align: justify; */
   background: rgb(0 0 0 / 50%);
   color: var(--on-primary);
   border-radius: 10px;
